@@ -1,5 +1,5 @@
-# Emergency_App
-I.C.E
+# I.C.E - In Case Emergency
+
 
 This was an Ulster University Magee group project for (Mobile Development). In this project, came together to plan and assign andriod pages. You can see the andriod pages, which I created:
 • Emergency Services 
