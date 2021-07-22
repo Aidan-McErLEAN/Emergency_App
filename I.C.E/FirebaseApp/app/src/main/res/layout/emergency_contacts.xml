@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a552"
+    tools:context=".Emergency_Contacts">
+
+    <ImageButton
+        android:id="@+id/NUMBER4"
+        android:layout_width="157dp"
+        android:layout_height="169dp"
+        android:onClick="NUMBER4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/call" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="56dp"
+        android:text="EMERGENCY CONTACTS"
+        android:textColor="#ffffff"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <ImageButton
+        android:id="@+id/NUMBER2"
+        android:layout_width="157dp"
+        android:layout_height="169dp"
+        android:onClick="NUMBER2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/call" />
+
+    <TextView
+        android:id="@+id/txt_contact1"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <TextView
+        android:id="@+id/txt_contact2"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/txt_contact3"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <ImageButton
+        android:id="@+id/NUMBER3"
+        android:layout_width="157dp"
+        android:layout_height="169dp"
+        android:onClick="NUMBER3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        app:srcCompat="@drawable/call" />
+
+    <TextView
+        android:id="@+id/txt_contact4"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <ImageButton
+        android:id="@+id/NUMBER1"
+        android:layout_width="157dp"
+        android:layout_height="169dp"
+        android:onClick="NUMBER1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/call" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
